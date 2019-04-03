@@ -1,7 +1,7 @@
 {
     ".source.fmcfg": {
         "Spells": {
-            "prefix": "spells",
+            "prefix": "spell",
             "body": "${1|#name,#stop|}"
         },
         "Region": {
