@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "fmcfg" extension will be documented in this file.
+### 0.0.8
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Spells and highlighting
 
-## [Unreleased]
+### 0.0.7
 
-- Initial release
+Initial release of FMLHT Config

@@ -1,13 +1,13 @@
 {
     "name": "fmcfg",
-    "displayName": "FMCFG CFG",
+    "displayName": "FMCFG",
     "description": "Config *.fmcfg files",
     "publisher": "FMLHT",
     "repository": {
         "type": "git",
         "url": "https://github.com/ismslv/VSCode_FMLHT_CFG.git"
     },
-    "version": "0.0.82",
+    "version": "0.0.83",
     "engines": {
         "vscode": "^1.32.0"
     },
