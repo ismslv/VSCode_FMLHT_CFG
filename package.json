@@ -7,7 +7,7 @@
         "type": "git",
         "url": "https://github.com/ismslv/VSCode_FMLHT_CFG.git"
     },
-    "version": "0.0.7",
+    "version": "0.0.8",
     "engines": {
         "vscode": "^1.32.0"
     },
@@ -47,7 +47,13 @@
                 "scopeName": "source.fmcfg",
                 "path": "./syntaxes/fmcfg.tmLanguage.json"
             }
-        ]
+        ],
+        "snippets": [
+			{
+				"language": "fmcfg",
+				"path": "./snippets/fmcfg.json"
+			}
+		]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",

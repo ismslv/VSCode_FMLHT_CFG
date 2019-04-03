@@ -4,9 +4,30 @@
 	"scopeName": "source.fmcfg",
 	"patterns": [
 		{
+			"begin": "(^[ \\t]+)?(?=#stop)",
+			"beginCaptures": {
+				"0": {
+					"name": "invalid"
+				}
+			},
+			"end": "(?!\\G)",
+			"patterns": [
+				{
+					"begin": "#",
+					"beginCaptures": {
+						"0": {
+							"name": "invalid"
+						}
+					},
+					"end": "\\n",
+					"name": "invalid"
+				}
+			]
+		},
+		{
 			"begin": "(^[ \\t]+)?(?=#)",
 			"beginCaptures": {
-				"1": {
+				"0": {
 					"name": "punctuation.whitespace.comment.leading.ini"
 				}
 			},

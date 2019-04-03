@@ -1,0 +1,17 @@
+{
+    ".source.fmcfg": {
+        "Spells": {
+            "prefix": "spells",
+            "body": "${1|#name,#stop|}"
+        },
+        "Region": {
+            "prefix": "region",
+            "body": [
+              "#> ${1:region}",
+              "\t$0",
+              "#<"
+            ],
+            "description": "For Loop"
+        }
+    }
+}

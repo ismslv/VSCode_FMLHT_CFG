@@ -26,7 +26,16 @@ Option2 = 2.1
 #<
 ```
 
+You can use the following snippets:
 
+`region` for regions
+
+`spell` for spells (refer to Unity CFG for usage)
+
+
+### 0.0.8
+
+Spells and highlighting
 
 ### 0.0.7
 
