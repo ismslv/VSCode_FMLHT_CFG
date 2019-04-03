@@ -1,0 +1,56 @@
+{
+    "name": "fmcfg",
+    "displayName": "FMCFG",
+    "description": "FMLHT Config",
+    "publisher": "FMLHT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ismslv/VSCode_FMLHT_CFG.git"
+    },
+    "version": "0.0.7",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "icon": "icon.png",
+    "main": "./src/extension",
+    "activationEvents": [
+        "onLanguage:fmcfg"
+    ],
+    "keywords": [
+        "FMLHT",
+        "fmlht",
+        "fmcfg"
+    ],
+    "files.associations": {
+        "*.fmcfg": "fmcfg"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "fmcfg",
+                "aliases": [
+                    "FMLHT Config",
+                    "fmcfg"
+                ],
+                "extensions": [
+                    ".fmcfg"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "fmcfg",
+                "scopeName": "source.fmcfg",
+                "path": "./syntaxes/fmcfg.tmLanguage.json"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    }
+}
