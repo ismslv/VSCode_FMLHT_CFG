@@ -4,7 +4,7 @@
 
 The language support for FMLHT studio inner config files.
 
-To use with https://github.com/ismslv/Unity_CFG (of version > 1.2)
+To use with https://github.com/ismslv/Unity_CFG
 
 ## Release Notes
 
