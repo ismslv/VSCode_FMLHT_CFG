@@ -31,3 +31,5 @@ You can use the following snippets:
 `region` for regions
 
 `spell` for spells (refer to Unity CFG for usage)
+
+`key` for the list of KeyCodes
