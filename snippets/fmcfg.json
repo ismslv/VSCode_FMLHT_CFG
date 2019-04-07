@@ -22,7 +22,7 @@
         "Joystick": {
             "prefix": "joystick",
             "body": [
-                "${1|ButtonA,ButtonB,ButtonX,ButtonY,Start,Back,BumperL,BumperR,TriggerL,TriggerR,UpL, RightL, DownL, LeftL,UpR, RightR, DownR, LeftR,UpD, RightD, DownD, LeftD|}"
+                "${1|ButtonA,ButtonB,ButtonX,ButtonY,Start,Back,BumperL,BumperR,TriggerL,TriggerR,UpL,RightL,DownL,LeftL,UpR,RightR,DownR,LeftR,UpD,RightD,DownD,LeftD|}"
             ]
         },
         "Mouse": {

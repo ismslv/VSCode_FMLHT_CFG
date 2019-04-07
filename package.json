@@ -7,7 +7,7 @@
         "type": "git",
         "url": "https://github.com/ismslv/VSCode_FMLHT_CFG.git"
     },
-    "version": "0.0.85",
+    "version": "0.0.86",
     "engines": {
         "vscode": "^1.32.0"
     },
